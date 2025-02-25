@@ -1,6 +1,7 @@
+// import './App.css'
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NaviBar from "./components/NaviBar";
+import Navibar from "./components/NaviBar";
 import Home from "./pages/Home";
 
 function App() {
@@ -8,9 +9,10 @@ function App() {
 
   return (
       <>
-          <NaviBar />
+          <Navibar />
           <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/photo" element={<Photo />} />
           </Routes>
       </>
   )
