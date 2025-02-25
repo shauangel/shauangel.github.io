@@ -1,6 +1,6 @@
 @font-face {
     font-family: darlington;
-    src: url(./fonts/DarlingtonDemo-z8xjG.ttf);
+    src: url(./assets/fonts/DarlingtonDemo-z8xjG.ttf) format("truetype");;
 }
 
 #brand {
