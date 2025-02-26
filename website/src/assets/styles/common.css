@@ -1,8 +1,72 @@
 @font-face {
-    font-family: darlington;
-    src: url(./assets/fonts/DarlingtonDemo-z8xjG.ttf) format("truetype");;
+    font-family: "darlington";
+    src: url(/fonts/DarlingtonDemo-z8xjG.ttf) format("truetype");
 }
 
-#brand {
-    font-family: darlington
+@font-face {
+    font-family: "ananda-black";
+    src: url(/fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf) format("truetype");
+}
+
+
+/* Brand styles - Modern Minimalist */
+.brand {
+    font-family: "ananda-black" !important;
+    font-size: 48px !important;
+    padding: 1.5rem 2rem;
+    margin: 0;
+    background: #fff;
+    border-bottom: 3px solid #333;
+    position: relative;
+}
+
+.brand::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    width: 30px;
+    height: 3px;
+    background: #84fab0;
+    transform: translateX(-50%);
+}
+
+/* Navigation styles */
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.navbar .nav-link {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #999;
+}
+
+.navbar-brand {
+    color: #333;
+}
+
+.navbar-brand:hover {
+    color: #666;
+}
+
+/* Add bottom border to separate brand from nav items */
+.navbar .container {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 1rem;
+    width: 100%;
+}
+
+/* Social media icons */
+.navbar .nav-link svg {
+    font-size: 18px;
+    vertical-align: middle;
 }

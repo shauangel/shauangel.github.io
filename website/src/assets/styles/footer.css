@@ -1,0 +1,75 @@
+.footer {
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+    padding: 1.5rem 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    color: #333;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.social-icon:hover {
+    background-color: #333;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.contact-info {
+    color: #666;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.phone, .email {
+    transition: color 0.3s ease;
+}
+
+.phone:hover, .email:hover {
+    color: #333;
+}
+
+.copyright {
+    color: #999;
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .social-links {
+        gap: 1.2rem;
+    }
+
+    .social-icon {
+        width: 28px;
+        height: 28px;
+        font-size: 0.8rem;
+    }
+} 
