@@ -1,0 +1,176 @@
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Profile Section */
+.profile-section {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.affiliations {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.affiliation {
+    color: #28a745;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.affiliation:hover {
+    color: #218838;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.social-links a {
+    color: #666;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #28a745;
+    transform: translateY(-2px);
+}
+
+/* Content Sections */
+.section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #28a745;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* Interests Section */
+.interests-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.interests-list li {
+    background-color: #f8f9fa;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: #555;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.interests-list li:hover {
+    background-color: #28a745;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Education Section */
+.education-item {
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.degree-icon {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.degree h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.institution {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.period {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-section {
+        padding: 1.5rem;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .name {
+        font-size: 1.75rem;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .intro-text {
+        font-size: 1rem;
+    }
+} 

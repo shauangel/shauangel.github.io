@@ -14,9 +14,11 @@ function NaviBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/" className="px-3">Home</Nav.Link>
-            <Nav.Link as={Link} to="/features" className="px-3">About</Nav.Link>
-            <Nav.Link as={Link} to="/lifestyle" className="px-3">Projects</Nav.Link>
-            <Nav.Link as={Link} to="/about" className="px-3">Life</Nav.Link>
+            <Nav.Link as={Link} to="/about" className="px-3">About</Nav.Link>
+            <Nav.Link as={Link} to="/skill" className="px-3">Skills</Nav.Link>
+            <Nav.Link as={Link} to="/" className="px-3">Projects</Nav.Link>
+            <Nav.Link as={Link} to="/playground" className="px-3">Playground</Nav.Link>
+            <Nav.Link as={Link} to="/" className="px-3">Life</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link as={Link} to="/contact" className="px-3">Contact</Nav.Link>
