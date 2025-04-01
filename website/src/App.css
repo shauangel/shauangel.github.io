@@ -5,6 +5,11 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .app-container {
@@ -15,28 +20,26 @@ body {
 
 /* Ensure main content takes up available space */
 .main-content {
-    flex: 1 0 auto;
-    padding-top: 160px; /* Account for fixed navbar */
+    flex: 1;
+    padding-top: 60px; /* Height of fixed navbar */
 }
 
 .section {
     min-height: 100vh;
-    padding: 4rem 0;
+    width: 100%;
     display: flex;
     align-items: center;
-    scroll-margin-top: 160px; /* Offset for fixed navbar */
+    justify-content: center;
+    padding: 4rem 0;
+    scroll-margin-top: 60px; /* Offset for fixed navbar */
 }
 
 /* Alternate section backgrounds for visual separation */
 .section:nth-child(even) {
-    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    background-color: #f8f9fa;
 }
 
-.section:nth-child(odd) {
-    background: #ffffff;
-}
-
-/* Remove extra padding from first section */
-#home.section {
+/* First section (home) should not have top padding to account for navbar */
+.section:first-child {
     padding-top: 0;
 } 

@@ -48,18 +48,17 @@ function About() {
             </p>
             <p className="intro-text">
               I care about creating efficient, scalable, and user-friendly applications. 
-              In my free time, you'll find me exploring new technologies, contributing to open-source projects, 
-              and sharing knowledge with the developer community.
+              In my free time, you'll find me exploring new technologies and contributing to open-source projects.
+              Or maybe playing volleyball or sitting in my couch crocheting.
             </p>
           </section>
 
           <section className="interests-section mt-5">
             <h2 className="section-title">Interests</h2>
             <ul className="interest-list">
-              <li>Machine Learning/Deep Learning</li>
-              <li>Software Development/RESTful APIs/DevOps/Microservices</li>
-              <li>Web Development</li>
-              <li>Data Science</li>
+              <li>Software Development, RESTful APIs, DevOps, Microservices</li>
+              <li>Computational Biology, Bioinformatics, Genome Mutation Prediction</li>
+              <li>Machine Learning, Deep Learning, Natural Language Processing</li>
             </ul>
           </section>
 

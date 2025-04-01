@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "title": "Canvas Across the Bay",
+      "description": "A site that showcases public art in transit stops around the Bay Area! From BART stations to Muni platforms, public art transforms shared spaces into galleries on the go. How many of these hidden treasures have you encountered in your commutes?",
+      "image": "/images/canvas-across-bay.png",
+      "technologies": ["Javascript", "React", "Leaflet.js", "CSS"],
+      "links": [
+        {
+          "text": "Project Site",
+          "url": "#"
+        },
+        {
+          "text": "GitHub",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "title": "MHacks 2024 Website",
+      "description": "Led the development team for the MHacks 2024 website. Worked with designers to create an engaging user experience and collaborated with organizers to highlight key information and schedules. Site received over 1,000 applications.",
+      "image": "/images/mhacks-2024.png",
+      "technologies": ["Javascript", "React", "Next.js", "CSS"],
+      "links": [
+        {
+          "text": "MHacks 2024 Website",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "title": "MHacks Organizer Dashboard",
+      "description": "Developed a web dashboard that allowed MHacks organizers to view applicant data, check attendees at the event, and monitor/run judging. The app was a one-stop shop for organizers, judges, and volunteers with authentication and smooth account setup.",
+      "image": "/images/mhacks-dashboard.png",
+      "technologies": ["Javascript", "Supabase", "React", "CSS"],
+      "links": [
+        {
+          "text": "MHacks Organizer Dashboard",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+} 
