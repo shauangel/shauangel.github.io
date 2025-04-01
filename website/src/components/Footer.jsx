@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import '../assets/styles/footer.css';
 
 function Footer() {
@@ -10,8 +10,8 @@ function Footer() {
     <footer className="footer">
       <Container className="text-center">
         <div className="social-links">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <FaFacebookF />
+          <a href="https://www.instagram.com/your-instagram" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <FaInstagram />
           </a>
           <a href="https://www.linkedin.com/in/an-chi-shau-506466326/" target="_blank" rel="noopener noreferrer" className="social-icon">
             <FaLinkedinIn />
@@ -22,8 +22,8 @@ function Footer() {
         </div>
         
         <div className="contact-info">
-          <p className="phone">+886 912345678</p>
-          <p className="email">shauangel@gmail.com</p>
+          <p className="phone">+1 814-280-1763</p>
+          <p className="email">shauanchi0315@gmail.com</p>
         </div>
 
         <div className="copyright">

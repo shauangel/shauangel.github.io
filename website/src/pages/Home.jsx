@@ -12,12 +12,11 @@ function Home() {
           <Col md={6} className="hero-content">
             <div className="subtitle">THINK UNLIMITED</div>
             <h1 className="hero-title">
-              Monkey Finds
+              Intelligence Monkey Smashes
               <span className="highlight"> Bug-Bananas</span>
             </h1>
             <p className="hero-text">
-              Software engineer specializing in full-stack development, 
-              machine learning, and innovative solutions. Let's build something amazing together.
+            Hi, I'm Anchi :) Full-stack whiz, ML/DL enthusiast, and passionate builder
             </p>
             <div className="cta-buttons">
               <Link to="/projects" className="primary-button">View Projects</Link>

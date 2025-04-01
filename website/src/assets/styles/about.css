@@ -24,7 +24,7 @@
 .name {
     font-size: 2rem;
     font-weight: 700;
-    color: #333;
+    color: #2d3436;
     margin-bottom: 0.5rem;
 }
 
@@ -42,14 +42,14 @@
 }
 
 .affiliation {
-    color: #28a745;
+    color: #00b894;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
 }
 
 .affiliation:hover {
-    color: #218838;
+    color: #00a884;
 }
 
 .social-links {
@@ -66,14 +66,14 @@
 }
 
 .social-links a:hover {
-    color: #28a745;
+    color: #00b894;
     transform: translateY(-2px);
 }
 
 /* Content Sections */
 .section-title {
     font-size: 2rem;
-    color: #333;
+    color: #2d3436;
     margin-bottom: 1.5rem;
     position: relative;
     display: inline-block;
@@ -86,38 +86,27 @@
     left: 0;
     width: 40px;
     height: 3px;
-    background-color: #28a745;
+    background-color: #00b894;
 }
 
 .intro-text {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #555;
+    color: #636e72;
     margin-bottom: 1rem;
 }
 
 /* Interests Section */
 .interests-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+    display: none;
 }
 
 .interests-list li {
-    background-color: #f8f9fa;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    color: #555;
-    font-size: 1rem;
-    transition: all 0.3s ease;
+    display: none;
 }
 
 .interests-list li:hover {
-    background-color: #28a745;
-    color: white;
-    transform: translateY(-2px);
+    display: none;
 }
 
 /* Education Section */
@@ -136,12 +125,12 @@
 
 .degree h3 {
     font-size: 1.2rem;
-    color: #333;
+    color: #2d3436;
     margin-bottom: 0.5rem;
 }
 
 .institution {
-    color: #666;
+    color: #00b894;
     font-size: 1rem;
     margin-bottom: 0.25rem;
 }
@@ -149,6 +138,7 @@
 .period {
     color: #888;
     font-size: 0.9rem;
+    font-weight: 500;
 }
 
 /* Responsive Design */
@@ -173,4 +163,34 @@
     .intro-text {
         font-size: 1rem;
     }
+}
+
+.about-interests {
+    margin: 2rem 0;
+}
+
+.about-interests h3 {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.interest-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.interest-list li {
+    color: #636e72;
+    padding: 0.25rem 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.interest-list li::before {
+    content: "•";
+    color: #00b894;
+    font-size: 1.5em;
+    margin-right: 0.5rem;
 } 

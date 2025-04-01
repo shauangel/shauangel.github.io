@@ -1,3 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .app-container {
     min-height: 100vh;
     display: flex;
@@ -5,6 +14,29 @@
 }
 
 /* Ensure main content takes up available space */
-main {
+.main-content {
     flex: 1 0 auto;
+    padding-top: 160px; /* Account for fixed navbar */
+}
+
+.section {
+    min-height: 100vh;
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    scroll-margin-top: 160px; /* Offset for fixed navbar */
+}
+
+/* Alternate section backgrounds for visual separation */
+.section:nth-child(even) {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.section:nth-child(odd) {
+    background: #ffffff;
+}
+
+/* Remove extra padding from first section */
+#home.section {
+    padding-top: 0;
 } 
