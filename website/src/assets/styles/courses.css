@@ -11,14 +11,14 @@
 }
 
 .courses-intro {
-    font-size: 1.2rem;
-    color: #636e72;
-    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
 }
 
 .courses-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
@@ -27,49 +27,73 @@
     border-radius: 12px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid #eee;
+    transition: transform 0.2s ease;
 }
 
 .course-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
 }
 
 .course-code {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.4rem;
     color: #2d3436;
-    margin-bottom: 0.5rem;
+    margin: 0;
+}
+
+.course-school {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.school-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    color: #00b894;
+}
+
+.school-icon[src] {
+    width: 1.2rem;
+    height: 1.2rem;
+    object-fit: contain;
 }
 
 .course-title {
     font-size: 1.1rem;
-    color: #666;
-    margin-bottom: 1rem;
-    font-weight: 600;
+    color: #2d3436;
+    margin: 0.5rem 0;
 }
 
 .course-description {
-    color: #636e72;
+    color: #666;
     font-size: 0.95rem;
     line-height: 1.5;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .language-tags {
     display: flex;
-    gap: 1rem;
-    margin-top: auto;
+    gap: 0.75rem;
+    flex-wrap: wrap;
 }
 
-.language-icon {
-    font-size: 1.5rem;
-    transition: transform 0.2s ease;
-}
-
-.language-icon:hover {
-    transform: scale(1.1);
+.language-tag {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    background: #f5f6fa;
+    color: #2d3436;
+    border: 1px solid #e0e0e0;
 }
 
 /* Language-specific colors */
@@ -118,10 +142,30 @@
 
     .courses-grid {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
     }
 
     .course-card {
         padding: 1.25rem;
+    }
+
+    .course-code {
+        font-size: 1.2rem;
+    }
+
+    .course-school {
+        font-size: 0.85rem;
+    }
+
+    .course-title {
+        font-size: 1rem;
+    }
+
+    .course-description {
+        font-size: 0.9rem;
+    }
+
+    .language-tag {
+        font-size: 0.85rem;
+        padding: 0.2rem 0.6rem;
     }
 } 

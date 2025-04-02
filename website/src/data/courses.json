@@ -1,58 +1,67 @@
 {
   "courses": [
     {
-      "code": "ENGR 101",
-      "title": "Elementary Programming Concepts",
-      "description": "Solving engineering problems with computer programming in MATLAB and C++.",
-      "languages": ["MATLAB", "C++"]
+      "code": "EECS",
+      "title": "Intro to Computer Science & Lab",
+      "description": "Basic concepts and theories in Computer Science.",
+      "languages": ["Bash"],
+      "school": "NTOU"
     },
     {
-      "code": "ENGR 100",
-      "title": "Intro to Autonomous Electronic Systems",
-      "description": "Implemented key functionalities in autonomous electronic systems to manage sensing, data acquisition and processing, and motion controls.",
-      "languages": ["Python"]
+      "code": "EECS",
+      "title": "Intro to Programming & Lab I/II",
+      "description": "Basic concepts in C, C++, and Object-Oriented Programming. Laboratory exercises in C and C++.",
+      "languages": ["C", "C++"],
+      "school": "NTOU"
     },
     {
-      "code": "EECS 203",
-      "title": "Discrete Math",
-      "description": "Introduction to the mathematical foundations of computer science",
-      "languages": []
+      "code": "EECS",
+      "title": "Digital Logic & Lab",
+      "description": "Basic concepts in Digital Logic Design and Computer Organization. Laboratory exercises in VHDL and Verilog.",
+      "languages": ["VHDL", "Verilog"],
+      "school": "NTOU"
     },
     {
-      "code": "EECS 280",
+      "code": "EECS",
       "title": "Programming and Intro Data Structures",
       "description": "Computer science fundamentals, with programming in C++. Build an image processing program, a game of Euchre, a web backend, and a machine learning algorithm.",
-      "languages": ["C++"]
+      "languages": ["C++"],
+      "school": "NTOU"
     },
     {
-      "code": "ROB 101",
+      "code": "EECS",
       "title": "Computational Linear Algebra",
       "description": "Explored how mathematics and computation are unified for reasoning about data and making discoveries about the world.",
-      "languages": ["Julia"]
+      "languages": ["Julia"],
+      "school": "NTOU"
     },
     {
       "code": "EECS 370",
       "title": "Intro to Computer Organization",
       "description": "Saw how a low-level language is executed by the hardware, and how to put together basic hardware building blocks to create a working processor.",
-      "languages": []
+      "languages": [],
+      "school": "PennState"
     },
     {
       "code": "EECS 281",
       "title": "Data Structures and Algorithms",
       "description": "Data Structures and Algorithms in C++.",
-      "languages": ["C++"]
+      "languages": ["C++"],
+      "school": "PennState"
     },
     {
       "code": "EECS 492",
       "title": "Introduction to Artifical Intelligence",
       "description": "Introduction to the core concepts of artificial intelligence, including intelligent search, game playing, logic, and constraint satisfaction.",
-      "languages": []
+      "languages": [],
+      "school": "PennState"
     },
     {
       "code": "EECS 376",
       "title": "Foundations of Computer Science",
       "description": "This course covered computer science theory and algorithms, including divide-and-conquer, dynamic programming, and graph algorithms.",
-      "languages": []
+      "languages": [],
+      "school": "PennState"
     }
   ]
 } 
